@@ -28,3 +28,32 @@
     opacity: 0.9;
     color: lightgrey;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .planScreen__plans{
+        display: flex;
+        justify-content:left;
+    }
+    .planScreen__plans {
+        display: flex;
+        flex-direction: column;
+    }.planScreen__plans > button{
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        margin-top: 5%;
+        width: 80%;
+    }.planScreen__info > h1{
+        font-size: large;
+    }.planScreen__info > h6{
+        font-size:x-small;
+    }
+    
+  }
+
+@media only screen and (max-width: 400px) {
+    .planScreen__plans {
+        display: flex;
+        flex-direction: column;
+    }
+  }
